@@ -44,6 +44,8 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 32px 60px;
+    background-color: #ffffff11;
+    backdrop-filter: blur(10px);
 }
 
 .suscribete {
@@ -55,4 +57,27 @@ ul {
     border-radius: 15px;
 
 
+}
+
+/* ---------------------------Estilo Jumbotron------------------------------ */
+
+.jumbotron {
+    padding: 113px 120px;
+}
+
+.jumbotron h1 {
+    font-size: 56px;
+}
+
+.jumbotron-navbar {
+    background-image: url(/assets/Jumbotron\ _div_\ \(1\).png);
+    color:#EFF7F6;
+    background-size: cover;
+    text-align: center;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 60px;
 }
