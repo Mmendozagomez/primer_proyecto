@@ -68,6 +68,10 @@ ul {
 .jumbotron h1 {
     font-size: 56px;
 }
+.jumbotron h1 span {
+    font-size: 56px;
+    color: #fc67b2;
+}
 
 .jumbotron-navbar {
     background-image: url(/assets/Jumbotron\ _div_\ \(1\).png);
@@ -91,6 +95,8 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 29px 60px;
+    flex-wrap: wrap;
+
 }
 
 h2 {
@@ -100,6 +106,23 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+.descripcion p {
+    flex-wrap: wrap;
+}
+.tarjeta a {
+    padding: 36px 8px;
+    border-radius: 15px;
+    box-shadow: 16px 20px 32px -20px rgba(135,135,135,0.82);
+    align-items: center;
+   
+}
+
+.tarjeta a img {
+    object-fit: cover;
+
 }
 
 /* ----------------------Seccion de noticias----------------------------- */
@@ -111,6 +134,7 @@ h2 {
 }
 .noticias img {
     object-fit: cover;
+    width: 50%;
 }
 .noticia-1 {
     display: flex;
@@ -125,6 +149,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     padding: 69px 31px;
+    width: 50%;
 }
 .tipo-noticia {
     display: flex;
@@ -171,6 +196,7 @@ footer {
     background-image: url(assets/Jumbotron\ _div_\ \(1\).png);
     color: #EFF7F6 ;
     align-items: center;
+    justify-content: center;
 }
 
 .formulario {
@@ -179,17 +205,27 @@ footer {
     backdrop-filter: blur(10px); 
     gap:42px;
     align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 29px 60px;
 
 }
-
+.formulario h5{
+    font-size: 24px;
+}
 .barra {
     display: flex;
     background-color: #EFF7F6;
-    border-radius: 15px;
+    border-radius: 36px;
     color: #313131;
     align-items: center;
+    width: 512px;  
+    justify-content: space-between;
+    padding: 12px;  
 
 }
+
+
 
 .lista-Navbar-2 {
     display: flex;
@@ -207,6 +243,9 @@ footer {
 
 }
 
+.redes {
+    gap: 20px;
+}
 
 
 }
