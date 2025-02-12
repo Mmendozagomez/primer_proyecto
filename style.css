@@ -76,9 +76,137 @@ ul {
     text-align: center;
 }
 
+/* ----------------------------Seccion de Tarjetas------------------------------------- */
 .tarjetas {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.encabezado img {
+    width: 100%;
+}
+
+.tarjeta {
     display: flex;
     justify-content: space-between;
     padding: 29px 60px;
 }
+
+h2 {
+    font-size: 24px;
+}
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ----------------------Seccion de noticias----------------------------- */
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+.noticias img {
+    object-fit: cover;
+}
+.noticia-1 {
+    display: flex;
+    padding: 0px 60px;
+
+}
+.texto-noticia {
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/Texto_div_.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 69px 31px;
+}
+.tipo-noticia {
+    display: flex;
+    justify-content: space-between;
+
+}
+h3 {
+    font-size: 25px;
+
+}
+.contenido-noticia p {
+    font-size: 19px;
+}
+.leer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticia-2 {
+    display: flex;
+    padding: 0px 60px;
+}
+/* -------------2do Jumbo------------------ */
+
+.jumbotron-2 {
+    padding: 113px 120px;
+}
+
+.jumbotron-2 h4 {
+    font-size: 56px;
+}
+
+.jumbotron-2 {
+    background-image: url(assets/Hero\ 2\ -\ h4\ _section_.svg);
+    color:#EFF7F6;
+    background-size: cover;
+    text-align: center;
+}
+
+/* ---------------Footer------------------------ */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/Jumbotron\ _div_\ \(1\).png);
+    color: #EFF7F6 ;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    background-color: #ffffff26;
+    backdrop-filter: blur(10px); 
+    gap:42px;
+    align-items: center;
+
+}
+
+.barra {
+    display: flex;
+    background-color: #EFF7F6;
+    border-radius: 15px;
+    color: #313131;
+    align-items: center;
+
+}
+
+.lista-Navbar-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.navbar-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 60px;
+
+}
+
+
+
 }
